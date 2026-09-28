@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #fceb02;
+}
+
+.encabezado {
+    display: flex;
+    background-color: #d12121;
+    padding: 10px 20px;
+}
+
+.menu {
+    display: flex;
+    background-color: #ff6600;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(251, 255, 0);
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+}
+
+.pie {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e8e0dc;
+    padding: 30px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+}
